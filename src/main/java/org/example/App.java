@@ -19,7 +19,7 @@ public class App
 
         Flyway.configure()
                 .dataSource(jdbcUrl, username, password)
-                .locations("classpath:flyway/scripts")
+                .locations("classpath:osbb/migration")
                 .load()
                 .migrate();
     }
