@@ -43,18 +43,10 @@ public class OsbbCRUD implements Closeable {
             "        OR R.idResident IS NULL\n" +
             "    );";
 
-    private void fwMigration(){
-        logger.debug("Flyway migration execute");
 
-        Flyway.configure()
-                .dataSource(jdbcUrl, username, password)
-                .locations("classpath:osbb/migration")
-                .load()
-                .migrate();
-    }
     public OsbbCRUD init() throws SQLException {
         logger.info("Crud has initialized");
-        fwMigration();
+
 
         try {
             conn = DriverManager.getConnection(jdbcUrl, username, password);

@@ -52,3 +52,13 @@
 2023-09-13 04:17:19 INFO  OsbbCRUD:56 - Crud has initialized
 2023-09-13 04:17:19 DEBUG OsbbCRUD:47 - Flyway migration execute
 2023-09-13 04:17:20 TRACE OsbbCRUD:79 - Call getting members with auto not allowed method
+2023-09-13 04:21:57 INFO  App:14 - The program has started
+2023-09-13 04:21:57 INFO  App:14 - The program has started
+2023-09-13 04:21:57 INFO  OsbbCRUD:56 - Crud has initialized
+2023-09-13 04:21:57 DEBUG OsbbCRUD:47 - Flyway migration execute
+2023-09-13 04:21:57 TRACE OsbbCRUD:79 - Call getting members with auto not allowed method
+2023-09-13 14:37:47 INFO  App:15 - The program has started
+2023-09-13 14:37:47 INFO  App:15 - The program has started
+2023-09-13 14:37:47 DEBUG DataBaseMigration:12 - Flyway migration execute
+2023-09-13 14:37:47 INFO  OsbbCRUD:48 - Crud has initialized
+2023-09-13 14:37:47 TRACE OsbbCRUD:71 - Call getting members with auto not allowed method
