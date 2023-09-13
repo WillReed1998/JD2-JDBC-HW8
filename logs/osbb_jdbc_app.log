@@ -16,3 +16,19 @@
 2023-09-13 03:17:30 INFO  App:17 - The program has started
 2023-09-13 03:17:30 DEBUG App:18 - Flyway migration execute
 2023-09-13 03:17:30 DEBUG App:18 - Flyway migration execute
+2023-09-13 03:55:54 INFO  App:17 - The program has started
+2023-09-13 03:55:54 INFO  App:17 - The program has started
+2023-09-13 03:55:54 DEBUG App:18 - Flyway migration execute
+2023-09-13 03:55:54 DEBUG App:18 - Flyway migration execute
+2023-09-13 03:56:46 INFO  App:17 - The program has started
+2023-09-13 03:56:46 INFO  App:17 - The program has started
+2023-09-13 03:56:46 DEBUG App:18 - Flyway migration execute
+2023-09-13 03:56:46 DEBUG App:18 - Flyway migration execute
+2023-09-13 04:01:44 INFO  App:17 - The program has started
+2023-09-13 04:01:44 INFO  App:17 - The program has started
+2023-09-13 04:01:44 DEBUG App:18 - Flyway migration execute
+2023-09-13 04:01:44 DEBUG App:18 - Flyway migration execute
+2023-09-13 04:03:40 INFO  App:17 - The program has started
+2023-09-13 04:03:40 INFO  App:17 - The program has started
+2023-09-13 04:03:40 DEBUG App:18 - Flyway migration execute
+2023-09-13 04:03:40 DEBUG App:18 - Flyway migration execute

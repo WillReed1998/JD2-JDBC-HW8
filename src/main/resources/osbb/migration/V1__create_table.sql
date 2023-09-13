@@ -1,11 +1,11 @@
-CREATE TABLE Buildings (
+CREATE TABLE IF NOT EXISTS Buildings (
 idBuildings INT AUTO_INCREMENT PRIMARY KEY,
 address VARCHAR(45),
 apartmentCount INT,
 floorCount INT
 );
 
-CREATE TABLE Apartments (
+CREATE TABLE IF NOT EXISTS Apartments (
 idApartments INT AUTO_INCREMENT PRIMARY KEY,
 apartmentNumber INT,
 floor INT,
@@ -15,7 +15,7 @@ building_id INT,
 FOREIGN KEY (building_id) REFERENCES buildings(idBuildings)
 );
 
-CREATE TABLE Residents (
+CREATE TABLE IF NOT EXISTS Residents (
 idResident INT AUTO_INCREMENT PRIMARY KEY,
 first_name VARCHAR(45),
 last_name VARCHAR(45),
@@ -27,7 +27,7 @@ apartment_id INT,
 FOREIGN KEY (apartment_id) REFERENCES Apartments(idApartments)
 );
 
-CREATE TABLE ResidentsCar (
+CREATE TABLE IF NOT EXISTS ResidentsCar (
 idResidentsCar INT AUTO_INCREMENT PRIMARY KEY,
 carModel VARCHAR(45),
 plateNumber VARCHAR(45),
